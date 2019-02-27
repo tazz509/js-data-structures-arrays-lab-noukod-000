@@ -3,4 +3,8 @@
 
 function destructivelyAppendDriver () {
 
+  drivers.length = 0;
+
+  drivers.push('Milo', 'Otis', 'Garfield');
+
 }
